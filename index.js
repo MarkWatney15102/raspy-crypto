@@ -20,3 +20,7 @@ app.get('/take-photo', (req, res) => {
     console.log('test');
     req.status(200).json({message: "done"});
 });
+
+app.listen(port, () => {
+    console.log('Listening to Port: ' + port);
+})

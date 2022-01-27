@@ -17,4 +17,8 @@ sudo apt install apt gphoto2 -y
 
 sudo apt install libgphoto2-dev -y
 
+pkg-config | dpkg
+
 npm i   
+
+#https://clang.llvm.org/get_started.html
